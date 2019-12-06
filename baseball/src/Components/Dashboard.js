@@ -2,11 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ButtonsWrapper = styled.div`
-
+  background-color: darkgreen;
+  padding: 0 20%;
+  display: flex;
+  justify-content: space-evenly;
 `;
 
 const Button = styled.button`
-
+  font-size: 1.5rem;
+  height: 8rem;
+  width: 8rem;
 `;
 
 const Dashboard = ({balls, strikes, setBalls, setStrikes}) => {

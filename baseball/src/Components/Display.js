@@ -2,18 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Board = styled.div`
-  
+  display: flex;
+  justify-content: center;
+  background-color: darkgreen;
 `;
 
 const CountWrapper = styled.div`
-
+  margin: 2% 5%;
 `;
 
-const CountName = styled.p`
-
+const CountName = styled.h1`
+  
 `;
 
-const CountDisplay = styled.p`
+const CountDisplay = styled.h2`
 
 `;
 
